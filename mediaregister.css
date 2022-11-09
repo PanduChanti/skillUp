@@ -1,0 +1,51 @@
+@media(max-width:767px) {
+    .register {
+        margin-top: 30%;
+        margin-left: 15%;
+        position: absolute;
+        width: 70%;
+        height: 120vh;
+        background-color: white;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+
+    }
+
+}
+
+
+
+@media(max-width:480px) {
+
+    .middle-container h2 {
+        margin-top: 10%;
+        color: white;
+        font-size: 20px;
+    }
+
+
+    .register {
+        margin-top: 30%;
+        margin-left: 4%;
+        position: absolute;
+        width: 90%;
+        height: 120vh;
+        background-color: white;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+
+    }
+
+    .register:hover {
+        width: 90%;
+        height: 121vh;
+        border: 2px solid red;
+        transform: translateY(-2%);
+    }
+
+    .application button {
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+
+}

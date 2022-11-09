@@ -1,0 +1,387 @@
+@media(max-width:480px) {
+    /* navbar */
+
+    .container .navbar h1 {
+        margin: 10px;
+    }
+
+
+    .container .navbar .navbuttons {
+        margin-left: 24%;
+        margin-top: 15px;
+    }
+
+    /* navbar */
+
+
+
+
+    /* middle-container */
+
+    .middle-container {
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        background: black;
+
+    }
+
+    .middle-container .middle-matter {
+        height: 70%;
+        margin-left: 20%;
+        display: grid;
+    }
+
+    .middle-container .middle-matter h2 {
+        color: white;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+
+    .middle-container .middle-matter h3 {
+        font-size: 10px;
+        color: white;
+        margin-top: 120px;
+        margin-left: 40px;
+    }
+
+    .middle-container .middle-matter h2 span {
+        position: relative;
+        color: red;
+    }
+
+    .middle-container .middle-matter h2 span::after {
+        content: "";
+        width: 100%;
+        height: 106%;
+        position: absolute;
+        background-color: black;
+        left: 0;
+        border-left: 2px solid red;
+        animation: typing 5s steps(10) infinite;
+    }
+
+
+
+
+    @keyframes typing {
+        100% {
+            left: 100%;
+            margin: 0 -35px 0 35px;
+        }
+    }
+
+
+
+    /* middle-container */
+
+    /* animation */
+
+    div.at-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 10px;
+        margin-left: -60px;
+        margin-top: 50px;
+    }
+
+
+    /* animation */
+
+
+
+
+
+    /* middle-card */
+
+    .middle-card {
+        /* position: absolute; */
+        width: 90%;
+        height: 80vh;
+        border-radius: 20px;
+        /* box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.1);
+background: gray; */
+        margin-top: 60%;
+        margin-left: 10px;
+        display: block;
+    }
+
+
+
+    .middle-card .card {
+
+        transition: 1s ease-in-out;
+        width: 80%;
+        height: 80%;
+        background: white;
+        margin-top: 50px;
+        border-radius: 20px;
+        box-shadow: 15px 13px 15px rgba(0, 0, 0, 0.1);
+        margin-left: 80px;
+    }
+
+    .middle-card .card:hover {
+        width: 83%;
+        height: 87%;
+    }
+
+    .middle-card .card span h1 {
+        margin-top: 20px;
+        margin-left: 120px;
+        color: red;
+        font-size: 25px;
+    }
+
+
+    .middle-card .card h1 {
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 28px;
+    }
+
+    .middle-card .card h2 {
+        margin-left: 100px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .middle-card .card .months {
+
+        margin-left: 70px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+
+
+    .middle-card .card .months ul li {
+        line-height: 25px;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .middle-card .card button {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 100px;
+        width: 150px;
+        height: 40px;
+        /* border-radius: 20px; */
+        box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.1);
+        border: none;
+    }
+
+    .middle-card .card button a {
+        color: black;
+    }
+
+    .middle-card .card button:hover {
+        transition: 1s;
+        background-color: blueviolet;
+        border-radius: 20px;
+    }
+
+    .middle-card .card button a:hover {
+        color: white;
+    }
+
+    /* middle-card */
+
+
+
+
+    /* contact-us */
+    .contact-us {
+        width: 80%;
+        height: 70vh;
+        background-color: black;
+        margin-left: 60px;
+        margin-top: 270%;
+        border-radius: 20px;
+        display: grid;
+        transition: 1.5s;
+    }
+
+    .contact-us button {
+        width: 20%;
+        height: 7%;
+        margin-left: 240px;
+        position: absolute;
+        margin-top: 70%;
+    }
+
+    .contact-us:hover {
+        padding: 15px;
+    }
+
+
+    .contact-us h2 {
+        transition: 1s;
+        color: red;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+
+    .contact-us input {
+        width: 70%;
+        position: relative;
+        margin-left: 60px;
+    }
+
+
+    .contact-us textarea {
+        width: 80%;
+        height: 40%;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    .contact-us button {
+        width: 20%;
+        height: 7%;
+        margin-left: 150px;
+        position: absolute;
+        margin-top: 105%;
+    }
+
+
+    /* contact-us */
+
+
+
+
+    /* candidate login */
+
+
+    .candidate-login {
+        position: absolute;
+        width: 90%;
+        height: 55vh;
+        background: linear-gradient(35deg, black, gray);
+        border: 5px solid white;
+        margin-top: 50%;
+        margin-left: 30%;
+        border-radius: 20px;
+        box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.1);
+        display: none;
+
+    }
+
+
+    .candidate-login h2 {
+        margin-left: 30%;
+        margin-top: 10px;
+        color: red;
+        font-weight: 600;
+    }
+
+    .candidate-login form {
+        margin-top: 30px;
+        margin-left: 90px;
+    }
+
+
+    .candidate-login form label,
+    input {
+        margin-top: 10px;
+        margin-left: -20px;
+        color: white;
+    }
+
+    .candidate-login button {
+        margin-top: 20px;
+        margin-left: 130px;
+        width: 150px;
+        height: 30px;
+        border: none;
+    }
+
+
+    /* candidate login */
+
+
+
+    /* employee ID */
+    .employee-login {
+        position: absolute;
+        width: 90%;
+        height: 50vh;
+        background: linear-gradient(35deg, black, gray);
+        border: 5px solid white;
+        margin-top: 50%;
+        margin-left: 30%;
+        border-radius: 20px;
+        box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+
+    .employee-login .close-btn1 {
+        position: absolute;
+        margin-top: 10px;
+        margin-right: 20px;
+        right: 0;
+        width: 15px;
+        height: 25px;
+        background: #888;
+        padding: 4px;
+        border-radius: 10px;
+        color: #eee;
+        cursor: pointer;
+    }
+
+
+
+
+    .employee-login h2 {
+        margin-left: 30%;
+        margin-top: 30px;
+        color: red;
+        font-weight: 600;
+    }
+
+    .employee-login form {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+
+    .employee-login form label,
+    input {
+        margin-top: 10px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .employee-login button {
+        margin-top: 60px;
+        margin-left: 150px;
+        width: 150px;
+        height: 30px;
+        border: none;
+    }
+
+
+
+    .employee-login button a {
+        color: black;
+    }
+
+    .employee-login button:hover {
+        transition: 1s;
+        background-color: blueviolet;
+        border-radius: 20px;
+    }
+
+    .employee-login button a:hover {
+        color: white;
+    }
+
+    /* employee ID */
+
+
+}

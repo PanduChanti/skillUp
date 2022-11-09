@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 230%;
+    background-color: rgba(128, 128, 128, 0.327);
+    overflow-x: hidden;
+}
+
+/* navbar */
+.container .navbar {
+    width: 100%;
+    height: 8vh;
+    background-color: rgba(255, 255, 255, 0.874);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+
+.container .brand h1 span {
+    color: red;
+}
+
+.container .navbar h1 {
+    margin: 10px;
+    margin-left: 150px;
+}
+
+.container .navbar .navbuttons {
+    margin-left: 45%;
+    margin-top: 15px;
+}
+
+.container .navbar .navbuttons button {
+    margin-left: 30px;
+    height: 30px;
+    width: 140px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.container .navbar .navbuttons button:hover {
+    background: white;
+    color: black;
+    border: 2px solid red;
+}
+
+.container .navbar .navbuttons button a {
+    color: black;
+    padding: 10px;
+}
+
+/* navbar */
+
+/* middle-container */
+.middle-container {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    background: black;
+
+}
+
+.middle-container .middle-matter {
+
+    height: 70%;
+    margin-left: 22%;
+    display: grid;
+}
+
+.middle-container .middle-matter h2 {
+    color: white;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 30px;
+    font-size: 40px
+}
+
+.middle-container .middle-matter h3 {
+    font-size: 22px;
+    color: white;
+    margin-top: 220px;
+    margin-left: 90px;
+}
+
+.middle-container .middle-matter h2 span {
+    position: relative;
+    color: red;
+}
+
+.middle-container .middle-matter h2 span::after {
+    content: "";
+    width: 100%;
+    height: 106%;
+    position: absolute;
+    background-color: black;
+    left: 0;
+    border-left: 2px solid red;
+    animation: typing 5s steps(10) infinite;
+}
+
+
+
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+
+
+
+
+
+
+
+/* animation of full stack developer */
+
+
+div.at-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left: -400px;
+    margin-top: 50px;
+}
+
+.at-item {
+    color: white;
+    animation-name: focus-in-contract;
+    animation-duration: 3.2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    /* shorthand 
+    animation: focus-in-contract 3.2s ease 0s infinite normal none;
+    */
+}
+
+@keyframes focus-in-contract {
+    0% {
+        letter-spacing: 1em;
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+/* animation of full stack developer */
+
+
+/* middle-container */
+
+
+
+
+/* middle-card */
+
+.middle-card {
+    position: absolute;
+    width: 90%;
+    height: 80vh;
+    border-radius: 20px;
+    /* box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.1);
+    background: gray; */
+    margin-top: 28%;
+    margin-left: 100px;
+    display: flex;
+}
+
+
+
+.middle-card .card {
+    transition: 1s ease-in-out;
+    width: 33%;
+    height: 80%;
+    background: white;
+    /* margin-top: 50px; */
+    border-radius: 20px;
+    box-shadow: 15px 13px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 130px;
+}
+
+.middle-card .card:hover {
+    width: 36%;
+    height: 82%;
+    transform: translateY(-6%);
+}
+
+.middle-card .card span h1 {
+    margin-left: 190px;
+    color: red;
+}
+
+
+.middle-card .card h1 {
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.middle-card .card h2 {
+    margin-left: 130px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.middle-card .card .months {
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+
+
+.middle-card .card .months ul li {
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.middle-card .card button {
+    margin-top: 50px;
+    margin-left: 160px;
+    width: 150px;
+    height: 40px;
+    /* border-radius: 20px; */
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.middle-card .card button a {
+    color: black;
+}
+
+.middle-card .card button:hover {
+    transition: 1s;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.middle-card .card button a:hover {
+    color: white;
+}
+
+/* middle-card */
+
+
+/* candidate login */
+
+.candidate-login {
+    position: absolute;
+    width: 40%;
+    height: 50vh;
+    background: linear-gradient(35deg, black, gray);
+    border: 5px solid white;
+    margin-top: 10%;
+    margin-left: 30%;
+    border-radius: 20px;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+
+.candidate-login.active {
+    top: 6%;
+    left: 20%;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+
+.candidate-login h2 {
+    margin-left: 38%;
+    margin-top: 30px;
+    color: red;
+    font-weight: 600;
+}
+
+.candidate-login form {
+    margin-top: 30px;
+}
+
+
+.candidate-login form label,
+input {
+    margin-top: 15px;
+    margin-left: 80px;
+    color: white;
+}
+
+.candidate-login button {
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+
+
+.candidate-login hr {
+    margin-top: 30px;
+    width: 400px;
+    margin-left: 120px;
+}
+
+.candidate-login button a {
+    color: black;
+}
+
+.candidate-login button:hover {
+    transition: 1s;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.candidate-login button a:hover {
+    color: white;
+}
+
+
+.candidate-login .forgot {
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.candidate-login .forgot a {
+    color: white;
+}
+
+
+
+.candidate-login .close-btn {
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 20px;
+    right: 0;
+    width: 15px;
+    height: 25px;
+    background: #888;
+    padding: 4px;
+    border-radius: 10px;
+    color: #eee;
+    cursor: pointer;
+}
+
+
+/* candidate login */
+
+/* employee ID */
+.employee-login {
+    position: absolute;
+    width: 40%;
+    height: 50vh;
+    background: linear-gradient(35deg, black, gray);
+    border: 5px solid white;
+    margin-top: 10%;
+    margin-left: 30%;
+    border-radius: 20px;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.employee-login .close-btn1 {
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 20px;
+    right: 0;
+    width: 15px;
+    height: 25px;
+    background: #888;
+    padding: 4px;
+    border-radius: 10px;
+    color: #eee;
+    cursor: pointer;
+}
+
+
+
+.employee-login.allow {
+    top: 6%;
+    left: 20%;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+
+.employee-login h2 {
+    margin-left: 38%;
+    margin-top: 30px;
+    color: red;
+    font-weight: 600;
+}
+
+.employee-login form {
+    margin-top: 30px;
+}
+
+
+.employee-login form label,
+input {
+    margin-top: 15px;
+    color: #fff;
+    margin-left: 80px;
+}
+
+.employee-login button {
+    margin-top: 60px;
+    margin-left: 250px;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+
+
+
+.employee-login button a {
+    color: black;
+}
+
+.employee-login button:hover {
+    transition: 1s;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.employee-login button a:hover {
+    color: white;
+}
+
+/* employee ID */
+
+/* contact-us */
+.contact-us {
+    width: 50%;
+    height: 70vh;
+    background-color: black;
+    position: absolute;
+    margin-top: 66%;
+    margin-left: 380px;
+    border-radius: 20px;
+    display: grid;
+    transition: 1.5s;
+}
+
+
+.contact-us:hover {
+    padding: 15px;
+}
+
+
+.contact-us h2 {
+    transition: 1s;
+    color: red;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.contact-us input {
+    width: 80%;
+    position: relative;
+}
+
+.contact-us textarea {
+    width: 80%;
+    height: 40%;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.contact-us button {
+    width: 20%;
+    height: 7%;
+    margin-left: 350px;
+    position: absolute;
+    margin-top: 60%;
+}
+
+.contact-us button:hover {
+    transition: 1s;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+
+.contact-us button a:hover {
+    color: white;
+}
+
+/* contact-us */
