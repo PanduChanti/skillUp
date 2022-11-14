@@ -192,7 +192,7 @@ div.at-container {
 
 
 .middle-card .card {
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out;
     width: 33%;
     height: 80%;
     background: white;
